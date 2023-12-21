@@ -1,0 +1,41 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: monospace;
+}
+
+
+ul {
+	list-style: none;
+	background-color: purple;
+}
+
+ul li {
+	display: inline-block;
+	position: relative;
+}
+
+ul li a {
+	font-size: 20px;
+	color: white;
+}
+
+ul li ul.dropdown li {
+	display: block;
+}
+
+ul li ul.dropdown {
+	display: none;
+	position: absolute;
+}
+
+
+ul li a:hover {
+	background-color: red;
+}
+
+ul li:hover ul.dropdown {
+	display: block;
+}
+
+
